@@ -1,0 +1,146 @@
+body {
+    background-color: beige;
+}
+
+.schaakbord-container {
+    display: grid;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+
+.schaakbord__child1 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+}
+
+.schaakbord__child2 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 35px;
+}
+
+.schaakbord__child3 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    left: 60px;
+}
+
+.schaakbord__child4 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 85px;
+}
+
+.schaakbord__child5 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    top: 35px;
+}
+
+.schaakbord__child6 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    top: 35px;
+    left: 35px;
+}
+
+.schaakbord__child7 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 60px;
+    top: 35px;
+}
+
+.schaakbord__child8 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    left: 85px;
+    top: 35px;
+}
+
+.schaakbord__child9 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    top: 60px;
+}
+
+.schaakbord__child10 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 35px;
+    top: 60px;
+}
+
+.schaakbord__child11 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    left: 60px;
+    top: 60px;
+}
+
+.schaakbord__child12 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 85px;
+    top: 60px;
+}
+
+.schaakbord__child13 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    top: 85px;
+}
+
+.schaakbord__child14 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    left: 35px;
+    top: 85px;
+}
+
+.schaakbord__child15 {
+    position: absolute;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    left: 60px;
+    top: 85px;
+}
+
+.schaakbord__child16 {
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    left: 85px;
+    top: 85px;
+}

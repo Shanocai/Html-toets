@@ -1,0 +1,58 @@
+.float-container {
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+}
+
+.float__child1 {
+    background-color: red;
+    width: 250px;
+    float: left;
+}
+
+.float__child2 {
+    background-color: blue;
+    width: 250px;
+    float: left;
+}
+
+.float__child3 {
+    background-color: purple;
+    width: 250px;
+    float: left;
+}
+
+.float__child4 {
+    background-color: green;
+    width: 250px;
+    float: left;
+}
+
+.float__child5 {
+    background-color: yellow;
+    width: 250px;
+    float: left;
+}
+
+.float__child6 {
+    background-color: pink;
+    width: 250px;
+    float: left;
+}
+
+@media (max-width: 1132px) {
+    .float-container {
+        grid-template-columns: 16% 16% 16%;
+    }
+}
+
+@media (max-width: 874px) {
+    .float-container {
+        grid-template-columns: 16% 16%;
+    }
+}
+
+@media (max-width:454px) {
+    .float-container {
+        grid-template-columns: 16%;
+    }
+}

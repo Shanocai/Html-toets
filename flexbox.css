@@ -1,0 +1,52 @@
+.flexbox-container{
+display: flex;
+flex-wrap: wrap;
+}
+
+.flex__child1{
+background-color: red;
+width: 16%;
+}
+
+.flex__child2{
+background-color: blue;
+width: 16%;
+}
+
+.flex__child3{
+background-color: purple;
+width: 16%;
+}
+
+.flex__child4{
+background-color: green;
+width: 16%;
+}
+
+.flex__child5{
+background-color: yellow;
+width: 16%;
+}
+
+.flex__child6{
+background-color: pink;
+width: 16%;
+}
+
+@media (max-width: 1132px) {
+    .flex-container {
+        grid-template-columns: 16% 16% 16%;
+    }
+}
+
+@media (max-width: 874px) {
+    .flex-container {
+        grid-template-columns: 16% 16%;
+    }
+}
+
+@media (max-width:454px) {
+    .flex-container {
+        grid-template-columns: 16%;
+    }
+}
